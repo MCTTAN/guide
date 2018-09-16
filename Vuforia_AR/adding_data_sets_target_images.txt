@@ -1,0 +1,21 @@
+1.) Go to developer.vuforia.com.
+
+2.) Under “Target Manager”, click on “Add Database”.
+
+3.) Upload a medium-sized jpg image into the database, and set the width to 5.
+    (You can also upload png images, but sometimes they don’t work.)
+
+4.) Check the rating.
+    If the image has a 5-star rating, it can easily be detected by a camera.
+    The target image should have at least a 3-star rating.
+
+5.) Select the target(s) you want to download and click “Download Database”.
+
+6.) Organize your download into a Unity folder, and open the Unity project 
+    that you want to include the datasets in. 
+
+7.) Double-click on the dataset to add it into the current project.
+
+8.) Click on your “ImageTarget” in the “Hierarchy” window and look at the 
+    “Inspector” window. Go to “Image Target Behaviour (Script) and add your 
+    dataset.
