@@ -1,0 +1,29 @@
+1.) Delete the “Main Camera” in the “Hierarchy” window.
+
+2.) Go to “Assets > Vuforia > Prefabs”, and drag the “ARCamera.prefab” into 
+    the “Hierarchy” window.
+
+3.) Drag the “ImageTarget.prefab” onto the “AR Camera” in the “Hierarchy” 
+    Window. Make sure it’s a child of “AR Camera”.
+
+4.) Click on the “AR Camera” in the “Hierarchy” window and look at the 
+    “Inspector” window. Go to “Vuforia Behaviour Script” and set the “World 
+    Center Mode” to “DEVICE_TRACKING”.
+
+5.) Click on “Open Vuforia configuration”. After adding your license key and 
+    dataset, go to “Datasets” and checkmark all the options.
+
+6.) Left-click on your “ImageTarget” in the “Hierarchy” window and go to “3D 
+    Object > Plane”.
+    (Create  plane that’s a child of the image target.)
+    
+7.) Right-click on your "ImageTarget" and find the “Image Target Behavior” in the inspector window.
+
+8.) Under that tab, look for “Database” and select the database with your defined targets.
+
+9.) Name it / Adjust the location / Adjust the size / etc.
+    (In the “Inspector” window, I usually adjust the plane so that it sits 
+    above the image target.)
+
+10.) Click on the “Play” button. Make sure that the image target is detected by
+    looking for the plane you added.
