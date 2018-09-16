@@ -1,0 +1,17 @@
+1.) Go to developer.vuforia.com.
+
+2.) Under “License Manager”, click “Add License Key”.
+
+3.) Click on the license key name and copy the key.
+
+4.) Under the “Downloads” tab in the Vuforia website, download the Vuforia-Unity Extension.
+
+5.) Once you have the extension downloaded, drag the file into the “Assets” folder in Unity.
+
+6.) Under the “Vuforia” folder, look for “Prefabs” > “AR Camera”.
+
+7.) Delete the “Main Camera” and drag the “AR Camera” into the main scene.
+
+8.) Click on the “AR Camera” in your “Hierarchy” window and look at the “Inspector” window.
+
+9.) Click on “Open Vuforia configuration”, and paste your key.
