@@ -7,6 +7,8 @@ Apply this code to your desired camera.
 
 In the Inspector window, change the "Target_camera" to your desired camera.
 
+On the bottom gray bar during Play mode, you should see a message that confirms your screenshot.
+
 */
 
 using UnityEngine;
