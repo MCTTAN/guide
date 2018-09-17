@@ -5,6 +5,15 @@
 To get the Google Form's URL, go to "Preview" mode, right-click on the form and click "View Page Source".
 Press Ctrl + F and look for "form action". Copy-paste the URL after "form action".
 
+To get the entry #'s, right-click on the form and click "Inspect".
+
+Apply this script to the Canvas.
+
+Under the Canvas' Inspector, drag each input field to each component in the "Send_to_google_drive" script's section.
+
+Under the "Submit" button's Inspector, add a new "OnClick()" and drag the Canvas onto the "Select Object" field.
+Change the "No Function" to "send_to_google_drive" > "Send()".
+
 */
 
 using System.Collections;
@@ -28,9 +37,9 @@ public class send_to_google_drive : MonoBehaviour
     IEnumerator Post(string name, string email, string phone)
     {
         WWWForm form = new WWWForm();
-        form.AddField("entry.1673653496", name);
-        form.AddField("entry.1422402232", email);
-        form.AddField("entry.1022174842", phone);
+        form.AddField("entry.###", name);
+        form.AddField("entry.###", email);
+        form.AddField("entry.###", phone);
         byte[] rawData = form.data;
         WWW www = new WWW(BASE_URL, rawData);
         yield return www;
