@@ -1,5 +1,12 @@
 // Author: luzan
 
+/*
+
+To get the Google Form's URL, right-click on the form and click "View Page Source". Press Ctrl + F and look for "form action".
+Copy-paste the URL after "form action".
+
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
