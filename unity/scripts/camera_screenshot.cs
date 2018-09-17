@@ -1,6 +1,12 @@
 /*
+
 When running this code in Unity, press Shift + C to take a screenshot.
 Pictures will be saved in your project's folder.
+
+Apply this code to your desired camera.
+
+In the Inspector window, change the "Target_camera" to your desired camera.
+
 */
 
 using UnityEngine;
