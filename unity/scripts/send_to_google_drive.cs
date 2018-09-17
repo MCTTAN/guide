@@ -2,8 +2,8 @@
 
 /*
 
-To get the Google Form's URL, right-click on the form and click "View Page Source". Press Ctrl + F and look for "form action".
-Copy-paste the URL after "form action".
+To get the Google Form's URL, go to "Preview" mode, right-click on the form and click "View Page Source".
+Press Ctrl + F and look for "form action". Copy-paste the URL after "form action".
 
 */
 
