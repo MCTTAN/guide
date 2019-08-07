@@ -1,0 +1,5 @@
+div(style="display:inline-block", actionButton("profile_button", "Profile")),
+    div(style="display:inline-block", actionButton("bulletin_board_button", "Bulletin Board")),
+    div(style="display:inline-block", actionButton("crime_and_community_data_button", "Data")),
+    div(style="display:inline-block", actionButton("events_button", "Events")),
+    div(style="display:inline-block", actionButton("messages_button", "Messages")),
